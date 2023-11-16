@@ -2,7 +2,7 @@ import streamlit as st
 from transformers import pipeline
 
 
-model = pipeline("text-classification", model=model_checkpoint)
+model = pipeline("text-classification")
 
 def classify(text):
     result = model(text)[0]
