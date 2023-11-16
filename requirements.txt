@@ -1,0 +1,9 @@
+streamlit==1.4.0
+gensim==4.1.2
+transformers==4.16.1
+scikit-learn
+pandas==1.2.4
+torch
+numpy
+plotly==5.1.0
+altair<5
