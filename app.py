@@ -1,8 +1,8 @@
 import streamlit as st
 from transformers import pipeline
 
-
-model = pipeline("text-classification")
+model_checkpoint = "MuntasirHossain/distilbert-finetuned-ag-news"
+model = pipeline("text-classification", model=model_checkpoint)
 
 def classify(text):
     result = model(text)[0]
