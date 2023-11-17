@@ -11,7 +11,7 @@ def classify(text):
     return f"{label} (Score: {score})"
 
 # Streamlit app
-st.title("Classify Your Texts")
+st.title("Text Category Classification")
 st.sidebar.write("This AI model is trained to classify texts/articles/sentences into four categories: World, Sports, Business, and Science/Tech.")
 text_input = st.text_area("Enter your text here:")
 if st.button("Classify"):
